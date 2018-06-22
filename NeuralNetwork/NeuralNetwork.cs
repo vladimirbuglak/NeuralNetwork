@@ -49,8 +49,6 @@ namespace NeuralNetwork
         public void SetUpInputs(List<double> inputs)
         {
             var firstLayer = Layers.First();
-            firstLayer.
-
         }
 
         public void Train(List<double> inputs, int numberOfEpochs)
@@ -61,7 +59,7 @@ namespace NeuralNetwork
             {
                 for (int j = 0; j < inputs.Count; j++)
                 {
-                    PushInputValues(inputs[j]);
+                    //PushInputValues(inputs[j]);
 
                     var outputs = new List<double>();
 
@@ -73,8 +71,8 @@ namespace NeuralNetwork
 
                     // Calculate error by summing errors on all output neurons.
                     totalError = CalculateTotalError(outputs, j);
-                    HandleOutputLayer(j);
-                    HandleHiddenLayers();
+                    //HandleOutputLayer(j);
+                    //HandleHiddenLayers();
                 }
             }
         }

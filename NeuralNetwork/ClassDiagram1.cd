@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NeuralNetwork.Layer1">
+    <Position X="4.25" Y="1.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAEAIAAAAAAAAEAAAAAAAAAAAAAAAEAAACAAACA=</HashCode>
+      <FileName>Layer1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuralNetwork.NeuralNetwork1">
+    <Position X="9.25" Y="1.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAggIAAAAAAAAAAAAAAAAgAAAAAAAAAEgAAAAAAAAAA=</HashCode>
+      <FileName>NeuralNetwork1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuralNetwork.DataSet">
+    <Position X="9.25" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
